@@ -11,9 +11,9 @@
 html,
 body {
 	background-color: #fff;
-	color: #555;
-	font-family: 'Lato', 'Arial', sans-serif;
-	font-weight: 300;
+	color: rgb(248, 245, 245);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
@@ -39,11 +39,58 @@ body {
 	margin: 0 auto;
 }
 
+section {
+	padding: 80px 0;
+}
+
+.box {
+	padding: 1%;
+}
+
+/* ----- HEADINGS ----- */
+h1,
+h2,
+h3 {
+	font-weight: 400;
+}
+
+h1 {
+	margin-top: 0;
+	color: #ffd501;
+	font-size: 260%;
+	font-weight: 500;
+	word-spacing: 5px;
+	letter-spacing: 1.5px;
+}
+
+h2 {
+	font-size: 180%;
+	word-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 1.5px;
+}
+
+h3 {
+	font-size: 110%;
+	margin-bottom: 12px;
+}
+
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #ffd501;
+	content: " ";
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/lady-justice-2388500_1280.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/lady-justice-2388500_1280.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -53,9 +100,37 @@ header {
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
-	top: 50%;
-	left: 50%;
+	top: 40%;
+	left: 55%;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
+}
+
+/* Main navi */
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 7px 0;
+	color: rgb(223, 223, 223);
+	text-decoration: none;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #ffd501;
 }
