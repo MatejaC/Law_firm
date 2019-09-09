@@ -3,7 +3,6 @@
 /* ----------------------------------------------- */
 
 * {
-	margin: 0;
 	padding: 2;
 	box-sizing: border-box;
 }
@@ -39,12 +38,11 @@ body {
 	margin: 20px auto;
 }
 
-* section {
+.section {
 	padding: 80px 0;
 }
 
-.box {
-	margin: 0;
+.card {
 	padding: 1%;
 }
 
@@ -65,7 +63,7 @@ h1 {
 }
 
 h2 {
-	font-size: 180%;
+	font-size: 190%;
 	word-spacing: 2px;
 	text-align: center;
 	letter-spacing: 1.5px;
@@ -88,11 +86,11 @@ h3 {
 }
 
 h4 {
-	font-size: 170%;
-	font-weight: 300;
-	word-spacing: 1px;
+	font-size: 120%;
+	font-weight: 100;
+	word-spacing: 0.5px;
 	text-align: center;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 }
 
 h4:after {
@@ -102,7 +100,7 @@ h4:after {
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 /* ----------------------------------------------- */
 /* HEADER */
@@ -131,6 +129,7 @@ header {
 	float: right;
 	list-style: none;
 	margin-top: 50px;
+	margin-right: 1px;
 }
 
 .main-nav li {
@@ -140,7 +139,7 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-	padding: 7px 0;
+	padding: 5px 0;
 	color: rgb(223, 223, 223);
 	text-decoration: none;
 	font-size: 100%;
@@ -151,33 +150,68 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 2px solid #ffd501;
+	border-bottom: 1.5px solid #ffd501;
 }
 
 /* /* ----------------------------------------------- */
 /* VRSTE PRAVNE PRAKSE */
 /* ----------------------------------------------- */
+.section-prakse {
+	background-color: #fcfcfcbb;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #efefef;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.card div {
+	padding: 12px;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.card div:first-child {
+	background-color: #fff;
+	background-color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.card div:last-child {
+	text-align: center;
+	border: 0;
+}
 
 /* ----- PARAGRAPHS ----- */
 
-.box p {
+.card p {
 	font-size: 90%;
 	line-height: 145%;
 }
 
 .long-copy {
-	line-height: 145%;
-	width: 70%;
-	margin-left: 15%;
+	line-height: 120%;
+	width: 60%;
+	margin-left: 28%;
+	padding-bottom: 20px;
+	padding-top: 15px;
 }
 
 /* COLUMNS*/
 
-/* Float four columns side by side */
-.column {
+/* Float four cards side by side */
+.card {
 	float: left;
-	width: 25%;
-	padding: 0 10px;
+	column-width: 100%;
+	width: 20%;
+	padding: 20 25px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -192,9 +226,9 @@ header {
 	clear: both;
 }
 
-/* Responsive columns */
+/* Responsive cards */
 @media screen and (max-width: 600px) {
-	.column {
+	.cards {
 		width: 100%;
 		display: block;
 		margin-bottom: 20px;
