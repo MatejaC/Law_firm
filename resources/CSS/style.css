@@ -223,10 +223,8 @@ header {
 	clear: both;
 }
 
-
 /* -- Map -- */
 
-.map {
-	width: 100%;
-	height: 500 px;
+.iframe {
+	background-color: grey;
 }
