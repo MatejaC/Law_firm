@@ -91,7 +91,7 @@ h4 {
 h4:after {
 	display: block;
 	height: 2px;
-	background-color: #b5aa99;
+	background-color: #ffbf00;
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
@@ -245,13 +245,14 @@ header {
 /* -- kontakti -- */
 
 .footer {
-	background-color: #b5aa99;
+	background-color: #4e4537;
 	column-count: 2;
 }
 
 .kontakt-box {
-	background-color: #fff;
-	font-size: 14px;
+	background-color: #4e4537;
+	color: #fff;
+	font-size: 16px;
 	text-align: left;
 	width: 100%;
 }
@@ -259,7 +260,11 @@ header {
 .kontakt box div {
 	padding: 20px;
 	list-style: none;
-	margin: 5px 5px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
 }
 
 .kontakt-box ul {
@@ -267,7 +272,7 @@ header {
 }
 
 .kontakt-box ul li {
-	padding: 4px 0;
+	padding: 8px 5px;
 }
 
 /* Clear floats after the columns */
