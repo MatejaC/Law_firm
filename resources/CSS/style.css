@@ -1,6 +1,6 @@
 /* ----------------------------------------------- */
 /* color: #ffbf00 
-background-color: #d3a625   */
+background-color: #B5AA99   */
 
 /* BASIC SETUP */
 
@@ -11,7 +11,7 @@ background-color: #d3a625   */
 
 html,
 body {
-	background-color: #d3a625;
+	background-color: #b5aa99;
 	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
@@ -66,7 +66,7 @@ h2 {
 h2:after {
 	display: block;
 	height: 2px;
-	background-color: #d3a625;
+	background-color: #b5aa99;
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
@@ -75,7 +75,7 @@ h2:after {
 h3 {
 	font-size: 150%;
 	margin-bottom: 20px;
-	color: #fafaf3;
+	color: #fff;
 }
 
 h4 {
@@ -91,7 +91,7 @@ h4 {
 h4:after {
 	display: block;
 	height: 2px;
-	background-color: #d3a625;
+	background-color: #b5aa99;
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
@@ -152,7 +152,7 @@ header {
 .pov-box {
 	width: 80%;
 	background-color: #fff;
-	box-shadow: 0 2px 2px #eeeed6;
+	box-shadow: 0 2px 2px #4e4537;
 	padding: 20px;
 	text-align: justify;
 	margin-left: 9%;
@@ -165,7 +165,7 @@ header {
 /* ----------------------------------------------- */
 .section-prakse {
 	display: block;
-	background-color: #d3a625;
+	background-color: #b5aa99;
 }
 
 .prakse-box {
@@ -173,7 +173,7 @@ header {
 	border-radius: 5px;
 	width: 95%;
 	margin-left: 35%;
-	box-shadow: 0 2px 2px #eeeed6;
+	box-shadow: 0 2px 2px #4e4537;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
@@ -189,7 +189,7 @@ header {
 }
 
 .prakse-box:first-child {
-	text-align: right;
+	text-align: left;
 	padding-right: 3%;
 }
 
@@ -232,5 +232,35 @@ header {
 /* -- Map -- */
 
 .iframe {
-	background-color: #d3a625;
+	background-color: #f1e1b1;
 }
+
+/* -- footer -- */
+
+footer {
+	display: block;
+	background-color: #b5aa99;
+	width: 100%;
+	padding: 50px;
+	font-size: 16px;
+}
+
+.footer-nav {
+	list-style: none;
+	float: left;
+}
+
+.footer-nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/* .steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 70px; */
