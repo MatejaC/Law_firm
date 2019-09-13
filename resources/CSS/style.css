@@ -229,38 +229,39 @@ header {
 	clear: both;
 }
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
 /* -- Map -- */
 
 .iframe {
 	background-color: #f1e1b1;
 }
 
-/* -- footer -- */
+/* -- kontakti -- */
 
 footer {
 	display: block;
-	background-color: #b5aa99;
-	width: 100%;
-	padding: 50px;
+}
+
+.kontakt-box {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #4e4537;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.kontakt-box div {
+	padding: 15px 0;
+	text-align: center;
 	font-size: 16px;
 }
-
-.footer-nav {
-	list-style: none;
-	float: left;
-}
-
-.footer-nav li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-/* .steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
-}
-
-.steps-box:last-child {
-    text-align: left;
-    padding-left: 3%;
-    margin-top: 70px; */
