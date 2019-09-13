@@ -15,7 +15,7 @@ body {
 	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 }
@@ -146,7 +146,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 3px solid #ffbf00;
+	border-bottom: 2px solid #ffbf00;
 }
 
 .pov-box {
@@ -172,7 +172,7 @@ header {
 	background-color: #fff;
 	border-radius: 5px;
 	width: 95%;
-	margin-left: 35%;
+	margin-left: 30%;
 	box-shadow: 0 2px 2px #4e4537;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -213,7 +213,7 @@ header {
 .col {
 	float: left;
 	column-width: 100%;
-	width: 20%;
+	width: 21%;
 	padding: 20 25px;
 }
 
@@ -239,29 +239,47 @@ header {
 /* -- Map -- */
 
 .iframe {
-	background-color: #f1e1b1;
+	background-color: #b5aa99;
 }
 
 /* -- kontakti -- */
 
-footer {
-	display: block;
+.footer {
+	background-color: #b5aa99;
+	column-count: 2;
 }
 
 .kontakt-box {
 	background-color: #fff;
-	border-radius: 5px;
-	width: 90%;
-	margin-left: 5%;
-	box-shadow: 0 2px 2px #4e4537;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+	font-size: 14px;
+	text-align: left;
+	width: 100%;
 }
 
-.kontakt-box div {
-	padding: 15px 0;
-	text-align: center;
-	font-size: 16px;
+.kontakt box div {
+	padding: 20px;
+	list-style: none;
+	margin: 5px 5px;
+}
+
+.kontakt-box ul {
+	list-style: none;
+}
+
+.kontakt-box ul li {
+	padding: 4px 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
 }
