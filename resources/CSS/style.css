@@ -15,7 +15,7 @@ body {
 	color: black;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 18px;
 	text-rendering: optimizeLegibility;
 	overflow-x: hidden;
 }
@@ -146,7 +146,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 2px solid #ffbf00;
+	border-bottom: 3px solid #ffbf00;
 }
 
 .pov-box {
@@ -172,7 +172,7 @@ header {
 	background-color: #fff;
 	border-radius: 5px;
 	width: 95%;
-	margin-left: 30%;
+	margin-left: 35%;
 	box-shadow: 0 2px 2px #4e4537;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -213,7 +213,7 @@ header {
 .col {
 	float: left;
 	column-width: 100%;
-	width: 21%;
+	width: 20%;
 	padding: 20 25px;
 }
 
@@ -239,11 +239,12 @@ header {
 /* -- Map -- */
 
 .iframe {
-	background-color: #b5aa99;
+	background-color: #f1e1b1;
 }
 
 /* -- kontakti -- */
 
+<<<<<<< HEAD
 .footer {
 	background-color: #4e4537;
 	column-count: 2;
@@ -280,11 +281,26 @@ header {
 	content: "";
 	display: table;
 	clear: both;
+=======
+footer {
+	display: block;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-	.column {
-		width: 100%;
-	}
+.kontakt-box {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #4e4537;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+>>>>>>> parent of 6bf775a... isto footer... laku noć
+}
+
+.kontakt-box div {
+	padding: 15px 0;
+	text-align: center;
+	font-size: 16px;
 }
