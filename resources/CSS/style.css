@@ -244,63 +244,6 @@ header {
 
 /* -- kontakti -- */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.footer {
-	background-color: #4e4537;
-	column-count: 2;
-}
-
-.kontakt-box {
-	background-color: #4e4537;
-	color: #fff;
-	font-size: 16px;
-	text-align: left;
-	width: 100%;
-}
-
-.kontakt box div {
-	padding: 20px;
-	list-style: none;
-	border-radius: 2px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	-ms-border-radius: 2px;
-	-o-border-radius: 2px;
-}
-
-.kontakt-box ul {
-	list-style: none;
-}
-
-.kontakt-box ul li {
-	padding: 8px 5px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-=======
-footer {
-	display: block;
-}
-
-.kontakt-box {
-	background-color: #fff;
-	border-radius: 5px;
-	width: 90%;
-	margin-left: 5%;
-	box-shadow: 0 2px 2px #4e4537;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
->>>>>>> parent of 6bf775a... isto footer... laku noć
-}
-
-=======
 footer {
 	display: block;
 }
@@ -317,7 +260,6 @@ footer {
 	-o-border-radius: 5px;
 }
 
->>>>>>> parent of 6bf775a... isto footer... laku noć
 .kontakt-box div {
 	padding: 15px 0;
 	text-align: center;
