@@ -245,6 +245,7 @@ header {
 /* -- kontakti -- */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer {
 	background-color: #4e4537;
 	column-count: 2;
@@ -299,6 +300,24 @@ footer {
 >>>>>>> parent of 6bf775a... isto footer... laku noć
 }
 
+=======
+footer {
+	display: block;
+}
+
+.kontakt-box {
+	background-color: #fff;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #4e4537;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+>>>>>>> parent of 6bf775a... isto footer... laku noć
 .kontakt-box div {
 	padding: 15px 0;
 	text-align: center;
