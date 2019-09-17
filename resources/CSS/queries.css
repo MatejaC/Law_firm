@@ -33,16 +33,19 @@
 		padding: 5% 5%;
 	}
 
-	.col {
+	.column {
 		width: 100%;
-		margin: 0;
 	}
 
 	.pov-box {
-		width: 96%;
 		padding: 1% 2%;
-		margin-bottom: 5px;
+		margin-bottom: 4px;
 		margin-left: 2%;
+	}
+
+	.section-prakse {
+		text-align: left;
+		float: left;
 	}
 
 	.prakse-box div {
@@ -50,39 +53,35 @@
 	}
 
 	.prakse-box {
-		width: 96%;
+		text-align: left;
+		width: 90%;
 		margin-left: 2%;
 		margin-bottom: 5px;
 		padding: 1% 2%;
 	}
 
-	.prakse-box:first-child {
-		text-align: left;
+	.footer {
+		font-size: 90%;
+		margin-left: -3%;
+		margin-right: 5%;
+	}
+}
+
+/* Small phones to small tablets: from 481px to 767px 		*/
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 90%;
 	}
 
-	.prakse-box:last-child {
-		margin-top: 40px;
-	}
-
-	/* Small phones to small tablets: from 481px to 767px 		*/
-	@media only screen and (max-width: 767px) {
-		body {
-			font-size: 90%;
-		}
-	}
-	section {
-		padding: 20px 0;
-	}
-
-	.col {
-		width: 100%;
-		margin: 0;
+	.section {
+		padding: 15px 3px;
 	}
 
 	.row,
 	.hero-text-box {
 		padding: 0 3%;
 	}
+
 	.col {
 		width: 100%;
 		margin: 0 0 4% 0;
@@ -90,40 +89,6 @@
 
 	.main-nav {
 		display: none;
-	}
-
-	.main-nav {
-		float: left;
-		margin-top: 30px;
-		margin-left: 25px;
-	}
-
-	.main-nav li {
-		display: block;
-		padding: 10px 0;
-	}
-
-	.main-nav li a:link,
-	.main-nav li a:visited {
-		display: block;
-		border: 0;
-		padding: 10px 0;
-		font-size: 100%;
-	}
-
-	.sticky .main-nav {
-		margin-top: 10px;
-	}
-
-	.sticky .main-nav li a:link,
-	.sticky .main-nav li a:visited {
-		padding: 10px 0;
-	}
-	.sticky .mobile-nav-icon {
-		margin-top: 10px;
-	}
-	.sticky .mobile-nav-icon i {
-		color: #555;
 	}
 
 	h1 {
@@ -138,11 +103,7 @@
 		margin-left: 1%;
 	}
 
-	.prakse-box:first-child {
-		text-align: center;
-	}
-
-	.prakse-step div {
+	.prakse-box div {
 		height: 40px;
 		width: 40px;
 		margin-right: 15px;
@@ -154,25 +115,18 @@
 		margin-bottom: 20px;
 	}
 
-	.prakse-step:last-of-type {
-		margin-bottom: 20px;
-	}
-
 	.footer {
-		background-color: #4e4537;
 		font-size: 90%;
 	}
 
 	.col {
 		width: 100%;
-		margin: 3%;
+		margin: 2%;
 	}
 
 	.kontakt-box {
-		background-color: #4e4537;
-		color: #b5aa99;
 		width: 100%;
-		padding: 5px;
+		padding: 4px;
 	}
 
 	.kontakt box div {
@@ -188,24 +142,54 @@
 	.kontakt-box ul li {
 		padding: 1%;
 	}
-
-	/* Small phones: from 0 to 480px */
-	@media only screen and (max-width: 480px) {
-		section {
-			padding: 25px 0;
-		}
-		.contact-form {
-			width: 100%;
-		}
-	}
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
-
+/* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-	.span-2-of-2 {
-		width: 100%;
+	section {
+		padding: 10px 5px;
 	}
-	.span-1-of-2 {
+	pov-box {
+		width: 80%;
+		margin-left: 0%;
+	}
+
+	.prakse-box {
+		width: 85%;
+		margin-left: 0%;
+		margin-right: 20%;
+	}
+
+	.iframe {
+		width: 85%;
+		height: 450%;
+	}
+
+	.footer {
+		font-size: 90%;
+	}
+
+	.col {
 		width: 100%;
-	}*/
+		margin: 1%;
+	}
+
+	.kontakt-box {
+		width: 100%;
+		padding: 2px;
+	}
+
+	.kontakt box div {
+		list-style: none;
+		text-align: left;
+	}
+
+	.kontakt-box ul {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.kontakt-box ul li {
+		padding: 1%;
+	}
+}
