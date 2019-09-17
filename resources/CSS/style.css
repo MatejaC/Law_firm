@@ -265,7 +265,7 @@ header {
 	}
 }
 
-/* -- Map -- */
+/* -- Karta -- */
 
 .iframe {
 	background-color: #b5aa99;
@@ -280,39 +280,42 @@ header {
 }
 
 /* -- kontakti -- */
-
-.footer {
+footer {
 	background-color: #4e4537;
 	column-count: 2;
-	font-size: 90%;
+	display: block;
+	font-size: 95%;
+	margin-left: 2%;
 }
 
 .kontakt-box {
 	background-color: #4e4537;
 	color: #b5aa99;
-	width: 100%;
-	padding: 10px;
+	text-align: left;
+	padding: 5px 5px;
+	display: grid;
+	width: 350px;
+	height: 400px;
+	box-sizing: unset;
 }
 
 .kontakt box div {
 	list-style: none;
+	padding: 3px 3px;
+	display: grid;
 }
 
 .kontakt-box ul {
 	list-style: none;
 	color: #b5aa99;
-	margin-top: 20px;
-	margin-left: 10%;
-	margin-right: 25%;
-	display: inline-block;
+	margin-top: 30px;
 }
 
-.kontakt-box ul li {
-	padding: 3px 3px;
+.kontakt-box li {
+	padding: 4px 1px;
 }
 
-/* Clear floats after the columns */
-.row:after {
+Clear floats after the columns .row:after {
 	content: "";
 	display: table;
 	clear: both;
@@ -323,4 +326,16 @@ header {
 	.column {
 		width: 100%;
 	}
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	margin: 0 -px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
