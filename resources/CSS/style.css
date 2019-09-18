@@ -121,11 +121,13 @@ header {
 }
 
 /* Main navi */
+
 .main-nav {
 	float: right;
 	list-style: none;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-right: 0px;
+	margin-bottom: 20px;
 }
 
 .main-nav li {
@@ -135,12 +137,12 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-	padding: 8px 0;
-	color: #c7c0b6;
+	padding: 6px 0;
+	color: #fffdfb;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 90%;
-	border-bottom: 2.5px solid transparent;
+	border-bottom: 2px solid transparent;
 	transition: border-bottom 0.2s;
 	-webkit-transition: border-bottom 0.2s;
 	-moz-transition: border-bottom 0.2s;
@@ -150,12 +152,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 2.5px solid #ffbf00;
-}
-
-.mobile-nav-icon i {
-	font-size: 200%;
-	color: #fff;
+	border-bottom: 2px solid #ffbf00;
 }
 
 /* Sticky navi */
@@ -164,8 +161,8 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.98);
-	box-shadow: 0 2px 2px #efefef;
+	background-color: #fffdfb;
+	box-shadow: 0 2px 2px #e2caabc4;
 	z-index: 9999;
 }
 
@@ -175,9 +172,11 @@ header {
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-	padding: 16px 0;
-	color: #555;
+	padding: 6px 0;
+	color: #4e4537;
 }
+
+/* Povijest ureda */
 
 .pov-box {
 	width: 80%;
