@@ -312,6 +312,11 @@ header {
 	padding: 4px 4px;
 }
 
+a {
+	color: #26acc1;
+	text-decoration: underline;
+}
+
 Clear floats after the columns .row:after {
 	content: "";
 	display: table;
@@ -328,11 +333,4 @@ Clear floats after the columns .row:after {
 /* Remove extra left and right margins, due to padding */
 .row {
 	margin: 0 -px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
 }
