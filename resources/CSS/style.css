@@ -176,12 +176,25 @@ header {
 	color: #4e4537;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i {
+	font-size: 200%;
+	color: #fff;
+}
 /* Povijest ureda */
 
 .pov-box {
 	width: 80%;
 	background-color: #b5aa99;
 	border-radius: 5px;
+	border-color: #4e4537;
 	padding: 20px;
 	text-align: justify;
 	margin-left: 9%;
@@ -286,6 +299,7 @@ header {
 	column-count: 2;
 	font-size: 95%;
 	margin-left: 5%;
+	border: 0;
 }
 
 .kontakt-box {
@@ -299,6 +313,7 @@ header {
 
 .kontakt box div {
 	list-style: none;
+	border-style: none;
 }
 
 .kontakt-box ul {

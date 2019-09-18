@@ -28,6 +28,11 @@
 		margin-left: 20px;
 	}
 
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+	}
 	.hero-text-box {
 		width: 90%;
 		padding: 5% 5%;
@@ -74,7 +79,7 @@
 	}
 
 	.section {
-		padding: 15px 3px;
+		padding: 8px 3px;
 	}
 
 	.row,
@@ -87,8 +92,34 @@
 		margin: 0 0 4% 0;
 	}
 
+	/*
 	.main-nav {
-		display: none;
+		display: none;} */
+	.mobile-nav-icon {
+		display: inline-block;
+	}
+
+	.main-nav {
+		float: left;
+		margin-top: 25px;
+		margin-left: 3px;
+	}
+
+	.main-nav li {
+		display: block;
+		margin-left: 3px;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		padding: 5px 0;
+		font-size: 100%;
+	}
+	.mobile-nav-icon {
+		display: inline;
+	}
+	.main-nav {
+		float: left;
 	}
 
 	h1 {
