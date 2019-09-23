@@ -1,19 +1,18 @@
 /* ----------------------------------------------- */
-/* color: #ffbf00 
-background-color: #4E4537 
-color: #b5aa99  */
+/* color: 
+background-color:  
+ */
 
 /* BASIC SETUP */
 
 * {
-	padding: 2;
 	box-sizing: border-box;
 }
 
 html,
 body {
-	background-color: #4e4537;
-	color: black;
+	background-color: #dfe0df;
+	color: rgba(0, 0, 0, 0.932);
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
@@ -50,9 +49,9 @@ h3 {
 
 h1 {
 	margin-top: 0;
-	color: #ffbf00;
+	color: #bf9b30;
 	font-size: 300%;
-	font-weight: 500;
+	font-weight: 600;
 	word-spacing: 5px;
 	letter-spacing: 2px;
 }
@@ -66,8 +65,8 @@ h2 {
 
 h2:after {
 	display: block;
-	height: 2px;
-	background-color: #d3a625;
+	height: 3px;
+	background-color: #bf9b30;
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
@@ -75,8 +74,8 @@ h2:after {
 
 h3 {
 	font-size: 150%;
-	margin-bottom: 20px;
-	color: #b5aa99;
+	margin-bottom: 21px;
+	color: #fffdfb;
 }
 
 h4 {
@@ -92,7 +91,7 @@ h4 {
 h4:after {
 	display: block;
 	height: 2.5px;
-	background-color: #006877;
+	background-color: #006877; /* #1B3D2F */
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
@@ -103,7 +102,7 @@ h4:after {
 /* ----------------------------------------------- */
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url(img/clarisse-meyer-jKU2NneZAbI-unsplash.jpg);
+		url(img/patrick-fore-H5Lf0nGyetk-unsplash.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -113,8 +112,8 @@ header {
 .hero-text-box {
 	position: absolute;
 	width: 1140px;
-	top: 45%;
-	left: 50%;
+	top: 38%;
+	left: 48%;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -125,8 +124,8 @@ header {
 .main-nav {
 	float: right;
 	list-style: none;
-	margin-top: 40px;
-	margin-right: 0px;
+	margin-top: 42px;
+	margin-right: 10px;
 	margin-bottom: 20px;
 }
 
@@ -137,12 +136,13 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-	padding: 6px 0;
+	padding: 5px 0;
 	color: #fffdfb;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 90%;
-	border-bottom: 2px solid transparent;
+	font-size: 95%;
+	font-weight: 540;
+	border-bottom: 3px solid transparent;
 	transition: border-bottom 0.2s;
 	-webkit-transition: border-bottom 0.2s;
 	-moz-transition: border-bottom 0.2s;
@@ -152,7 +152,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-	border-bottom: 2px solid #ffbf00;
+	border-bottom: 3px solid #bf9b30;
 }
 
 /* Sticky navi */
@@ -161,8 +161,8 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #fffdfb;
-	box-shadow: 0 2px 2px #e2caabc4;
+	background-color: #fff;
+	box-shadow: 0 1px 1px #005b4d;
 	z-index: 9999;
 }
 
@@ -173,7 +173,7 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
 	padding: 6px 0;
-	color: #4e4537;
+	color: rgb(14, 13, 13);
 }
 
 /* Mobile navi */
@@ -191,14 +191,14 @@ header {
 /* Povijest ureda */
 
 .pov-box {
-	width: 80%;
-	background-color: #b5aa99;
+	width: 45%;
+	background-color: #fff;
 	border-radius: 5px;
-	border-color: #4e4537;
+	box-shadow: 1px 2px #afe9e1;
 	padding: 20px;
 	text-align: justify;
-	margin-left: 9%;
-	margin-top: 3%;
+	margin-left: 27%;
+	margin-top: 5%;
 	margin-bottom: 2%;
 }
 
@@ -207,15 +207,14 @@ header {
 /* ----------------------------------------------- */
 .section-prakse {
 	display: block;
-	background-color: #4e4537;
+	background-color: #dfe0df;
 }
-.col {
-	gap: 1px;
-}
+
 .prakse-box {
-	background-color: #b5aa99;
+	background-color: #fff;
 	border-radius: 5px;
 	width: 100%;
+	height: 100%;
 	margin-left: 26%;
 	padding: 5px 5px;
 	-webkit-border-radius: 5px;
@@ -242,10 +241,10 @@ header {
 
 /* ----- PARAGRAPHS ----- */
 
-.prakse-box,
+.prakse-box p,
 .pov-box p {
 	font-size: 95%;
-	line-height: 180%;
+	line-height: 170%;
 	color: black;
 }
 
@@ -281,7 +280,7 @@ header {
 /* -- Karta -- */
 
 .iframe {
-	background-color: #b5aa99;
+	background-color: #005b4d;
 	width: 88%;
 	height: 450%;
 	border-radius: 2px;
@@ -295,39 +294,53 @@ header {
 /* -- kontakti -- */
 
 .footer {
-	background-color: #4e4537;
+	background-color: #223f4a;
 	column-count: 2;
 	font-size: 95%;
-	margin-left: 5%;
 	border: 0;
+	margin-top: 35px;
+	row-gap: 15px;
 }
 
 .kontakt-box {
-	background-color: #4e4537;
-	color: #b5aa99;
+	background-color: #223f4a;
+	color: black;
 	text-align: left;
-	display: grid;
 	width: 500px;
-	height: 350px;
+	height: 400px;
 }
 
 .kontakt box div {
+	background-color: #223f4a;
 	list-style: none;
-	border-style: none;
+	width: 500px;
+	height: 400px;
+	margin: 0;
 }
 
+.col.span-1-of-2 {
+	margin-top: 0;
+	width: 500px;
+	height: 400px;
+	margin-left: 90px;
+}
 .kontakt-box ul {
+	background-color: #223f4a;
 	list-style: none;
-	color: #b5aa99;
-	margin-top: 20px;
+	color: rgba(255, 255, 255, 0.864);
+	width: 500px;
+	height: 400px;
+	padding: 0;
+	margin: 0;
 }
 
 .kontakt-box li {
 	padding: 4px 4px;
+	width: 500px;
 }
 
 a {
-	color: #26acc1;
+	color: #2db7cc;
 	text-decoration: underline;
 }
 
