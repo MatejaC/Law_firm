@@ -1,7 +1,10 @@
 # Law_firm
-mockup, plan, deadline
+- exercise in creating a webpage for a law firm
 
-## Tools used
+- available online at https://matejac.github.io/Law_firm/
+
+
+## Tools
 
 css
 html
@@ -12,6 +15,4 @@ grid system
 
 ## Website
 
-[deployed on github pages](https://matejac.github.io/Law_firm/)
-
-still needs finishing. repairing responsiveness
+-needs finishing - responsiveness
